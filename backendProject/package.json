@@ -2,9 +2,10 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "abasic app to deploy",
-  "main": "index.js",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "keywords": [
     "node"
